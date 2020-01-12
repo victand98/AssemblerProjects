@@ -24,7 +24,7 @@ _start:
     mov edx, len_message
     int 80h
 
-    mov [message + 5], dword 'Nuev'
+    mov [message + 5], dword 'Nuevoooo'
     ; + num => posicion de los caracteres
 
     mov eax, 4
